@@ -263,16 +263,29 @@ main section {
     justify-content: center;
 }
 
-.freg .send {
-    background-color: var(--color-celeste);
+.freg .send,
+.freg .kill {
     border: none;
     border-radius: 8px;
-    color: var(--color-grisClaro);
-    margin: 25px 20px 0;
+    color: var(--color-grisClaro);   
     padding: 3px 7px;
     width: 240px;
     height: 22px;
 }
+
+.freg .send {
+    background-color: var(--color-celeste);
+    margin: 25px 20px 0;
+}
+
+.freg .send:hover { background-color: #0022AA;}
+
+.freg .kill {
+    background-color: crimson;
+    margin: 10px 20px 0;
+}
+
+.freg .kill:hover { background-color: palevioletred;}
 
 /*****************/
 /* footer */
